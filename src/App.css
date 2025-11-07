@@ -1,42 +1,86 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #0d0d0d; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 1.5rem 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 1.6rem;
+  transition: color 0.3s ease;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a:hover {
+  color: #a259ff; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav span {
+  color: #555;
+  font-size: 2rem;
+  transform: translateY(-2px); 
 }
 
-.card {
-  padding: 2em;
+ul {
+  display: flex;
+  gap: 5rem;
 }
 
-.read-the-docs {
-  color: #888;
+.contact-form {
+  padding: 1.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #111;            
+  background-color: white;
+  border-radius: 8px;      
+}
+ 
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+ 
+.contact-form button:hover {
+  background-color: #333;
+}
+
+.ButtonContact{
+  padding: 5px 10px;       
+  font-size: 12px;         
+  border-radius: 10px;      
+  border: none;            
+  background-color: #ae00ff; 
+  color: white;            
+  width: 50%;             
+  height: 40px;            
+  display: inline-flex;    
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+form {
+  width: 50%;
+}
+
+.ContactName {
+display: flex;
+align-items: center;
+}
+
+.contactPage {
+  align-items: center;
+  background-color: #0d0d0d;
 }
