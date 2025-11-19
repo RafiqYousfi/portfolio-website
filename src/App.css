@@ -234,3 +234,39 @@ body {
   border-radius: 5%;
   object-fit: cover;
 }
+
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+}
+
+.project-card {
+  width: 260px;
+}
+
+.project-image {
+  width: 260px;
+  height: 160px;
+  background-color: #dcdcdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.project-button {
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #a200ff, #5e0fb7);
+  color: white;
+  cursor: pointer;
+}
