@@ -260,13 +260,17 @@ body {
 }
 
 .project-button {
-  margin-top: 20px;
-  width: 140px;
-  height: 40px;
-  border-radius: 20px;
+  font-style: italic;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 10px;
   border: none;
-  font-weight: bold;
-  background: linear-gradient(to bottom, #a200ff, #5e0fb7);
+  background-color: #ae00ff;
   color: white;
+  width: 50%;
+  height: 40px;
+  display: block;     
+  margin: 0 auto;      
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }

@@ -8,11 +8,11 @@ const Project = () => {
                 <br />
                 <p>
                      <br />
-                    asdasdsadsadsadasd <br />
-                    asdasdsadsadsadasd <br />
-                    asdasdsadsadsadasd
+                    Begin 2025 I started a little project on learning about Python. <br />
+                    I was curious of what the language is and how it is used. <br />
+                    I made a little application that works as a calculator.
                 </p>
-                <button className="project-button">project 1</button>
+                <button className="project-button">PROJECT 1</button>
             </div>
 
             <div className="project-card">
@@ -20,12 +20,11 @@ const Project = () => {
                 <h2>Project 2 “Escaperoom”</h2>
                 <br />
                 <p>
-                    asdasdsadsadasdasd <br />
-                    asdasdsadsadsadasd <br />
-                    asdasdsadsadsadasd <br />
-                    asdasdsadsadsadasd
+                    In 2024 I made a escaperoom<br />
+                    game. This was done with 4 different code languages:<br />
+                    HTML, CSS, Javascript and PHP.<br />
                 </p>
-                <button className="project-button">project 2</button>
+                <button className="project-button">PROJECT 2</button>
             </div>
             
         </div>
