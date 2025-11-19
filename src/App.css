@@ -272,3 +272,54 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   transition: all 0.3s;
 }
+
+.project-page {
+  background-color: #0d0d0d;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 3rem 5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.project-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.project-info p {
+  max-width: 550px;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.github-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.project-images img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #ccc;
+  border-radius: 4px;
+}

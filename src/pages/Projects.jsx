@@ -1,10 +1,13 @@
+import profile from "/public/images/p1foto.jpg";
+import calculator from "/public/images/calculator.jpg";
+
 const Project = () => {
     return (
         <div className="projects-wrapper">
 
             <div className="project-card">
-                <div className="project-image">p1 foto</div>
-                <h2>Project 1 “Calculator”</h2>
+            <img src={profile} alt="Profile" className="project-image"/>
+            <h2>Project 1 “Calculator”</h2>
                 <br />
                 <p>
                      <br />
@@ -16,7 +19,7 @@ const Project = () => {
             </div>
 
             <div className="project-card">
-                <div className="project-image">p2 foto</div>
+            <img src={calculator} alt="calculator" className="project-image" />
                 <h2>Project 2 “Escaperoom”</h2>
                 <br />
                 <p>
