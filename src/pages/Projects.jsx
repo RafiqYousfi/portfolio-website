@@ -1,4 +1,4 @@
-import projects from "../../data/projects";
+import projects from "../data/projects";
 import { useNavigate } from "react-router-dom";
 import profile from "/public/images/p1foto.jpg";
 import calculator from "/public/images/calculator.jpg";
