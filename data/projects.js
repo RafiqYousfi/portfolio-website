@@ -4,7 +4,13 @@ const projects = [
     title: 'Escape Room Game'
     description: 'An interactive escape room made with Javascript, PHP, HTML and CSS'
     Image: ;
+}
 
+{
+    id: 2,
+    title: 'python calculator'
+    description: 'An interactive escape room made with Javascript, PHP, HTML and CSS'
+    Image: ;
 }
 ];
  
