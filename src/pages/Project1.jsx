@@ -1,8 +1,3 @@
-// import githubLogo from "../assets/github.png";   
-// import ik from "../assets/ik.jpg";
-// import laptop from "../assets/laptop.jpg";
-// import calculator from "../assets/calculator.jpg";
-
 const Project1 = () => {
     return (
         <div className="project-page">
@@ -20,17 +15,17 @@ const Project1 = () => {
                     culpa qui officia deserunt mollit anim id est laborum.
                 </p>
 
-                <img 
-                    src={githubLogo} 
-                    alt="GitHub link" 
-                    className="github-logo"
-                />
+                {/* GitHub placeholder circle */}
+                <div className="github-circle">
+                    <span className="cat-icon">🐱</span>
+                </div>
             </div>
 
+            {/* Placeholder image boxes */}
             <div className="project-images">
-                {/* <img src={ik} alt="foto website 1" /> */}
-                {/* <img src={laptop} alt="foto website 2" /> */}
-                {/* <img src={Calculator} alt="foto website 3" /> */}
+                <div className="placeholder-box">foto website 1</div>
+                <div className="placeholder-box">foto website 2</div>
+                <div className="placeholder-box">foto website 3</div>
             </div>
 
         </div>

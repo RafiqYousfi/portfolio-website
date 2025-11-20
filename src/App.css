@@ -303,12 +303,23 @@ body {
   font-size: 1.2rem;
 }
 
-.github-logo {
-  width: 80px;
-  height: 80px;
+/* GitHub placeholder */
+.github-circle {
+  width: 90px;
+  height: 90px;
+  background-color: white;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.cat-icon {
+  font-size: 2.8rem;
+  color: black;
+}
+
+/* Image placeholders */
 .project-images {
   display: flex;
   justify-content: center;
@@ -316,10 +327,15 @@ body {
   margin-top: 4rem;
 }
 
-.project-images img {
+.placeholder-box {
   width: 300px;
   height: 200px;
-  object-fit: cover;
-  background-color: #ccc;
+  background-color: #dcdcdc;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  font-size: 1.4rem;
+  font-style: italic;
 }
