@@ -52,4 +52,4 @@ export default Project;
 
 //Stap 3
 //Ga terug naar je projects.jsx
-//Loop door je data met de map functie en voor elk project laadt je jouw ProjectCard in
+//Loop door je data met de map functie en voor elk project laadt je jouw ProjectCard in 
