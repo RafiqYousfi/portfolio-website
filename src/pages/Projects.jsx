@@ -1,3 +1,4 @@
+import projects from "../../data/projects";
 import { useNavigate } from "react-router-dom";
 import profile from "/public/images/p1foto.jpg";
 import calculator from "/public/images/calculator.jpg";
@@ -44,7 +45,6 @@ export default Project;
 //maak hier een array met objecten (elk objecdt is een project)
 
 //laadt het project bestand hier in(import)
-
 
 //Stap 2
 //Maak een ProjectCard component
