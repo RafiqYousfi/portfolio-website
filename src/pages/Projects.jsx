@@ -37,3 +37,19 @@ const Project = () => {
 }
 
 export default Project;
+
+//stap 1
+
+//maak een projects.js bestand
+//maak hier een array met objecten (elk objecdt is een project)
+
+//laadt het project bestand hier in(import)
+
+
+//Stap 2
+//Maak een ProjectCard component
+//in een projectCard reserveer je een plek voor de titel, afbeelding en een button van je project (properties)
+
+//Stap 3
+//Ga terug naar je projects.jsx
+//Loop door je data met de map functie en voor elk project laadt je jouw ProjectCard in
