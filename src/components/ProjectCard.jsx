@@ -1,11 +1,16 @@
-const ProjectCard = ({title}) => {
+const ProjectCard = ({title, description, image}) => {
     return ( 
-        <section>
-            <h2>{title}</h2>
-            <h2>{image}</h2>
-            <h2>{button}</h2>
-
-        </section>
+        <div className="project-card">
+        <img src={image} alt="Profile" className="project-image"/>
+        <h2>
+            {title}</h2>
+            <br />
+            <p>
+                 <br />
+                {description}
+            </p>
+            <button className="project-button">Bekijk project</button>
+        </div>
      );
 }
  
