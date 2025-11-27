@@ -1,5 +1,5 @@
-const detail = () => {
-    return ( <h1></h1> );
+const Projectsdetail = () => {
+    return ( <h1>alsdf</h1> );
 }
 
-export default detail;
+export default Projectsdetail;

@@ -1,15 +1,17 @@
-const ProjectCard = ({title, description, image}) => {
+
+
+const ProjectCard = ({project, onShowDetail}) => {
     return ( 
         <div className="project-card">
-        <img src={image} alt="Profile" className="project-image"/>
+        <img src={project.image} alt="Profile" className="project-image"/>
         <h2>
-            {title}</h2>
+            {project.title}</h2>
             <br />
             <p>
                  <br />
-                {description}
+                {project.description}
             </p>
-            <button className="project-button">Bekijk project</button>
+            <button className="project-button" onClick={() => onShowDetail(project.id)}>Bekijk project</button>
         </div>
      );
 }

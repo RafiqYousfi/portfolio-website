@@ -5,7 +5,7 @@ import About from './pages/About';
 import NoPage from './pages/NoPage';
 import Contact from './pages/Contact';
 import Project from './pages/Projects';
-import Project1 from './pages/Project1';
+import Projectsdetail from './pages/Projectsdetail';
 import './App.css'
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Project />} />
-          <Route path="/projects1" element={<Project1 />} />
           <Route path="*" element={<NoPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects/:projectId" element={<Projectsdetail />} />
         </Route>
       </Routes>
     </BrowserRouter>
