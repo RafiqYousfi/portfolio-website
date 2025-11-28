@@ -3,14 +3,15 @@ const projects = [
     id: 1,
     title: 'Escape Room Game',
     description: 'An interactive escape room made with Javascript, PHP, HTML and CSS',
-    image: './images/p1foto.jpg'
+    image: '/images/p1foto.jpg',
+    github: 'https://github.com'
 },
 
 {
     id: 2,
     title: 'python calculator',
     description: 'An interactive escape room made with Javascript, PHP, HTML and CSS',
-    image: './images/Calculator.jpg'
+    image: '/images/Calculator.jpg'
 }
 ];
  
