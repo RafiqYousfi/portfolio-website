@@ -303,9 +303,9 @@ body {
   font-size: 1 rem;
 }
 
-.github-circle {
-  width: 20px;
-  height: 20px;
+.github-circle img {
+  width: 20vh;
+color: white;
   background-color: white;
   border-radius: 20%;
   display: flex;
