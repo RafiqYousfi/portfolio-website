@@ -17,7 +17,7 @@ const Project = () => {
         <div className="projects-wrapper">
 
       {projectList.map((project) => (
-        <ProjectCard project={project} onShowDetail={goToProjectsdetail}/>
+        <ProjectCard key={project.id} project={project} onShowDetail={goToProjectsdetail}/>
 
       ))}
             

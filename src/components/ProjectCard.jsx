@@ -7,10 +7,7 @@ const ProjectCard = ({project, onShowDetail}) => {
         <h2>
             {project.title}</h2>
             <br />
-            <p>
-                 <br />
-                {project.description}
-            </p>
+            
             <button className="project-button" onClick={() => onShowDetail(project.id)}>Bekijk project</button>
         </div>
      );

@@ -15,7 +15,7 @@ const Projectsdetail = () => {
 
   return (
     <section className="project-page">
-      <button onClick={() => navigate("/projects")}>← Terug naar home</button>
+      <button className="project-button" onClick={() => navigate("/projects")}>← Terug naar home</button>
 
       <h1 className="project-title"> {project.title}</h1>
 
