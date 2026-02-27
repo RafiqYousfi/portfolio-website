@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-website">
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
